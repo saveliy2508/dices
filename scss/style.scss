@@ -1,0 +1,105 @@
+@import "_null";
+
+.display-none {
+    display: none;
+}
+
+.dices-area {
+    position: relative;
+}
+
+.start {
+    width: 120px;
+    height: 60px;
+    border: 5px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 180px;
+    left: 75px;
+}
+
+.wrapper {
+    width: 283px;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid black;
+    height: 421px;
+}
+.dices-area {
+    width: 283px;
+    height: 421px;
+}
+
+.background {
+    position: absolute;
+}
+
+.dice-11-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+
+.dice-12-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+
+.dice-13-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+.dice-14-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+.dice-15-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+.dice-16-pics {
+    position: absolute;
+    top: 20px;
+    right: 64px;
+}
+
+
+.dice-21-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+.dice-22-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+.dice-23-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+.dice-24-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+.dice-25-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+.dice-26-pics {
+    position: absolute;
+    top: 223px;
+    right: 64px;
+}
+
+#btn {
+    position: relative;
+    left: 200px;
+}

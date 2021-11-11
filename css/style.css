@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.display-none {
+  display: none;
+}
+
+.dices-area {
+  position: relative;
+}
+
+.start {
+  width: 120px;
+  height: 60px;
+  border: 5px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 180px;
+  left: 75px;
+}
+
+.wrapper {
+  width: 283px;
+  margin: 0 auto;
+  text-align: center;
+  border: 5px solid black;
+  height: 421px;
+}
+
+.dices-area {
+  width: 283px;
+  height: 421px;
+}
+
+.background {
+  position: absolute;
+}
+
+.dice-11-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-12-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-13-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-14-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-15-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-16-pics {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+}
+
+.dice-21-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+.dice-22-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+.dice-23-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+.dice-24-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+.dice-25-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+.dice-26-pics {
+  position: absolute;
+  top: 223px;
+  right: 64px;
+}
+
+#btn {
+  position: relative;
+  left: 200px;
+}
