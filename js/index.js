@@ -25,6 +25,7 @@ function start() {
 }
 
 startButton.addEventListener('click', start);
+background.addEventListener('click', start);
 
 // function of roll the dice
 function rollDices1 () {
